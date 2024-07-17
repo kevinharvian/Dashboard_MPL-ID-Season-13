@@ -1,0 +1,151 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bree+Serif&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lusitana:wght@400;700&family=Poppins&family=Roboto+Condensed:wght@700&family=Yeseva+One&display=swap'); */
+
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 14px;
+}
+
+.navbar-brand {
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar{
+    background-color: #640000;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    height: 100vh; /* Tinggi penuh viewport */
+    width: 100vw; /* Lebar penuh viewport */
+    background: url(img/Banner2.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Menjaga gambar tetap pada tempatnya saat menggulung */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+.tentang h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+.tentang p {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'PT Sans Narrow', cursive;
+    font-size: 56px;
+    color: #640000;
+    font-weight: bold;
+
+}
+
+h4 {
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #640000;
+}
+
+.partner h4 {
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 18px;
+}
+
+h5 {
+    font-family: 'Lusitana', serif;
+    font-size: 12px;
+}
+
+.team {
+    transition: box-shadow .3s;
+}
+
+.team a:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.team-about p {
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+}
+
+.team-achievements li {
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+}
+
+.team-name {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #640000;
+}
+
+.footer {
+    background-color: #640000;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+}
+
+.container.tim {
+    margin-bottom: 30px; /* Sesuaikan ukuran margin sesuai kebutuhan */
+}
+
+.container.p-5 {
+    padding: 0;
+    padding-top: 5rem; /* Tambahkan padding-top sesuai kebutuhan */
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.img-container img {
+    width: 50%; /* Ukuran gambar diatur menjadi 50% dari elemen induk */
+    height: auto;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.p1{
+    font-size: 17px;
+}
+
+.p2{
+    font-size: 17px;
+}
